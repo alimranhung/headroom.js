@@ -2,6 +2,28 @@
 
 **Give your pages some headroom. Hide your header until you need it.**
 
+##  How to use Css
+   
+```
+.header-area {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+}
+
+.header-area.headroom.headroom--pinned {
+    position: fixed;
+}
+```
+## How to use Js
+
+```
+headroom.js
+jQuery.headroom.js
+```
+
+
 ## What's it all about?
 
 Headroom.js is a lightweight, high-performance JS widget (with no dependencies!) that allows you to react to the user's scroll. The header on [this site](http://wicky.nillia.ms/headroom.js) is a living example, it slides out of view when scrolling down and slides back in when scrolling up.

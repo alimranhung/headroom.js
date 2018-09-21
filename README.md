@@ -2,7 +2,7 @@
 
 **Give your pages some headroom. Hide your header until you need it.**
 
-##  How to use Css
+##  How to use CSS.
    
 ```
 .header-area {
@@ -16,7 +16,7 @@
     position: fixed;
 }
 ```
-## How to use Js
+## How to use JS.
 
 ```
 headroom.js
